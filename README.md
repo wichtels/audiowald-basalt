@@ -4,8 +4,10 @@
 auto-accompaniment that follows your chords, multitrack recording and arranging, a song-writing assistant and a
 complete piano course, in one app that runs offline.
 
-This repository holds the test versions only (no source code). **Everyone can test:** without a licence
-key Basalt runs 15 minutes per start - just start it again for another 15 minutes.
+**Try it free:** every feature is available in the demo - each session runs for 15 minutes. A licence
+key removes the time limit.
+
+This repository holds the test versions only (no source code).
 
 ---
 
@@ -14,8 +16,7 @@ key Basalt runs 15 minutes per start - just start it again for another 15 minute
 1. Download `Audiowald-Basalt-Setup-<version>.exe` from the newest entry under **Releases**.
 2. Run it. If Windows warns ("Windows protected your PC"), choose **More info → Run anyway** - the test
    versions are not signed yet.
-3. Start Basalt. Without a key the top bar shows **DEMO** with the time left; after 15 minutes the sound
-   stops and a new start gives another 15 minutes.
+3. Start Basalt. In the demo the top bar shows **DEMO** with the time remaining in the session.
 4. With a **licence key** (**ENTER KEY** in the top bar) Basalt runs without limit and fully offline. The
    same key works on your other computers too.
 
