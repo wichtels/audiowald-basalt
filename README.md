@@ -1,67 +1,121 @@
 # Audiowald Basalt
 
-Test versions of **Audiowald Basalt** for invited testers - a synthesizer for Windows with fourteen sound
-models, effects, a drum machine, a sampler, a band that follows your chords, a song editor, a
-composition helper and a piano course.
+**A music workstation (DAW) for Windows** - fourteen synth models, a pad sampler and drum machine, an
+auto-accompaniment that follows your chords, multitrack recording and arranging, a song-writing assistant and a
+complete piano course, in one app that runs offline.
 
-This repository holds the releases only, no source code.
+This repository holds the test versions only (no source code). **Everyone can test:** without a licence
+key Basalt runs 15 minutes per start - just start it again for another 15 minutes.
+
+---
 
 ## Install
 
 1. Download `Audiowald-Basalt-Setup-<version>.exe` from the newest entry under **Releases**.
 2. Run it. If Windows warns ("Windows protected your PC"), choose **More info → Run anyway** - the test
    versions are not signed yet.
-3. Start Basalt and enter your **licence key** (you got it with the invitation). The same key works on
-   your other computers too. After that Basalt runs offline.
-4. Without a key Basalt is a **demo**: 15 minutes per start, then the sound stops.
+3. Start Basalt. Without a key the top bar shows **DEMO** with the time left; after 15 minutes the sound
+   stops and a new start gives another 15 minutes.
+4. With a **licence key** (**ENTER KEY** in the top bar) Basalt runs without limit and fully offline. The
+   same key works on your other computers too.
 
-**Updates** come by themselves: when a new version is out, **UPDATE** appears in the top bar. DOWNLOAD,
-then INSTALL - Basalt closes, updates and starts again. Your sounds, songs and settings stay.
+**Updates** come by themselves: when a new version is out, **UPDATE** appears in the top bar - DOWNLOAD,
+then INSTALL. Basalt closes, updates silently and starts again. Your sounds, songs and settings stay.
 
-## What you can do with it
+---
 
-**Play and shape sounds**
-- Fourteen models: classic polysynths (Six, Six-0, Six-106, Jove 8, Oberon X, Prophetic 6, P08), a fat
-  mono / poly synth (Voyage), six-operator FM (Hex 7), modern virtual analogue (Hyper), an acoustic Piano
-  (modelled, or recorded Grand and Upright), sound clouds from recordings (Texture, Spectra) and a Sampler.
-- Hundreds of presets; every change you make to a preset is remembered.
-- Two layers (STACK or SPLIT), arpeggiator, a 16-step SEQ, an 8-step GATE, a modulation matrix and an XY pad.
-- Effects: chorus, phaser, delay, reverb, glitch, ambient tools (fracture, grain, fold, resonator,
-  spectral, space), cinematic pitch movements and an analogue mastering stage.
-- Play with the on-screen keys, a MIDI keyboard (MPE too) or the computer keys.
+## What makes Basalt different
 
-**Chords and a band**
-- CHORD: one key plays a whole chord in your key and scale, with voicings and smooth voice leading.
-- STYLE: a band in many genres (drums, bass, chords, pad, ostinato) follows the chord you play, with
-  intro, two main parts, fills and an ending.
+Most DAWs give you a timeline, a mixer and a box of plugins - learning to play, writing the song and
+finding the sound are left to you. Basalt builds these into the workstation itself:
 
-**Drums and samples**
-- DRUMS: ten drum tracks with their own sounds, a 32-step sequencer with four patterns and kits.
-- SAMPLER: load or record a sound, edit it and play it across the keys or as a texture.
+| | A typical DAW | Basalt |
+| --- | :---: | :---: |
+| Timeline, piano roll, recording, mixing, export | ✓ | ✓ |
+| Synthesizers built in | a few, or plugins | **14 models, 815 presets** |
+| Pad sampler and drum machine | plugins or separate | **built in (BEATS)** |
+| Auto-accompaniment that follows the chords you play, live | – | **158 styles in 15 genres** |
+| Song planning: form, keys, chords, playing patterns → finished tracks | – | **CONCEPT + assistant** |
+| Learn to play the piano inside the music program | – | **12 levels, live jam units** |
+| One key plays a whole chord with voice leading | rarely | **CHORD** |
+| Vocal tuning, vocal studio chain and vocoder | plugins | **built in (VOICE)** |
+| Move sound in 3D with your hands in front of a camera | – | **✓** |
+| Persian tuning (dastgāh, koron and sori notes) on every track | – | **✓** |
+| Runs fully offline, no account | varies | **✓** |
 
-**Songs**
-- CONCEPT: plan a song - form, sections, keys, chords and playing patterns - with an optional
-  step-by-step Composition Assistant; it writes the arrangement as tracks for you.
-- TRACKS: record your playing, knob moves and the microphone, edit notes in the piano roll, arrange whole
-  bars, mix with faders, and export as WAV, MP3, OGG or FLAC (also as separate tracks).
+### Only in Basalt
 
-**Your voice**
-- VOICE: tune your singing (natural or hard tune), a vocal studio chain, harmony voices and a vocoder
-  that lets your voice shape the synth.
+- **A piano teacher inside the DAW.** Falling notes, finger numbers and hand diagrams through twelve
+  levels - and in every level *live units* with accompaniment: echo a call by ear, jam freely, find chords,
+  groove in the pulse, play with both hands, invent a motif. The music waits for you or keeps going and
+  rates your timing. Anything you improvise can be **kept as a song track** with one click.
+- **Accompaniment that listens.** Pick a style, play a chord - drums, bass, chords, pad and an ostinato
+  follow you, with intro, two main parts, fills and an ending. Like an arranger keyboard, but recorded
+  straight into your song.
+- **Write a song from its form.** CONCEPT plans sections, keys, chord palettes that only offer chords
+  that fit, and playing patterns for keys, strumming and bass. A 14-step assistant guides you through it;
+  **Create Arrangement** turns the plan into five editable tracks.
+- **Your hands as a controller.** A webcam or a phone sees your arms and hands (only points, never a
+  picture): raise them to move the sound through the room, stretch to widen it, open, pinch or tilt to
+  turn any sound parameter.
+- **Tuning beyond the piano.** Persian tuning with dastgāh and tonic: koron and sori notes sound lower or
+  higher on every track, changeable while you play.
+- **Cinematic movement.** Micro pitch drift, spectral lift and an endless rising tone - and a global pitch
+  drift that moves the whole song together.
 
-**Learn the piano**
-- The book in the top bar: twelve levels from the first three keys to your own performance, with falling
-  notes, finger numbers and hand diagrams. Wait for me, Play through or Listen.
-- Live units in every level: echo a call by ear, jam freely over a band, find chords, groove in the
-  pulse, play with both hands and invent your own motif.
-- After a piece: play freely over its harmony, listen back to what you played, keep it as a song track.
+---
+
+## All features
+
+**Sound**
+- Fourteen synth models: classic polysynths (Six, Six-0, Six-106, Jove 8, Oberon X, Prophetic 6, P08), a
+  fat mono / poly synth (Voyage), six-operator FM (Hex 7), modern virtual analogue (Hyper), an acoustic
+  **Piano** (physically modelled - strings, felt hammer, soundboard - or recorded Grand and Upright), sound
+  clouds from recordings (Texture, Spectra) and a Sampler.
+- 815 presets; every change you make to a preset is remembered.
+- Two layers per sound (STACK or SPLIT), unison, glide, two LFOs, an 8-slot modulation matrix, XY pad.
+- Arpeggiator, a 16-step SEQ that plays chords in your scale, an 8-step GATE.
+- MPE controllers, MIDI keyboards, the on-screen keys or the computer keys.
+
+**Effects**
+- Chorus, phaser, tape / ping-pong delay, reverb and a per-track glitch (stutter, reverse, freeze, pitch).
+- Ambient tools: fracture, grain, fold, resonator, spectral (smear, freeze, shift, morph) and space.
+- Cinematic motion and global pitch drift; an analogue mastering stage (tube, tape, glue, width) and EQ.
+
+**Chords and accompaniment**
+- CHORD: one key plays triads, 7ths, 9ths, sus or power chords in your key and scale - with voicings,
+  extra notes above or below, a bass note and automatic voice leading.
+- STYLE: 158 accompaniment styles in 15 genres following the chord you play.
+
+**BEATS**
+- 9 to 32 pads: load or record sounds, chop them by hits or grid or live, assign slices to pads.
+- Pattern recording with overdub, count-in and quantize; note repeat (also triplets), velocity and pitch
+  levels, choke groups, one-shot / gate / loop pads.
+- Ten drum tracks (synthesis and recorded strikes), 100 kits, four patterns up to eight bars, chains,
+  drum bus and glitch. Write patterns into the song or resample them into a new sound.
+
+**Song**
+- CONCEPT and the Composition Assistant (see above).
+- TRACKS: record keys, knob moves and the microphone; piano roll with chord tool, quantize and automation;
+  arranger for whole bars across all tracks; faders, mute and solo; undo for the whole song.
+- Export the song as WAV, MP3, OGG or FLAC, also every track as its own file.
+
+**Voice**
+- Tune your singing (natural or hard tune) to the key, the chord or the notes you play; a lead-vocal
+  studio chain; formant, robot and harmony voices; a vocoder that lets your voice shape the synth.
+
+**Learn**
+- Twelve levels from the first three keys to your own performance; Wait for me, Play through or Listen;
+  tempo, hands, sections and repeat; points, accuracy and timing; live units in every level; play freely
+  over any piece and listen back.
 
 **More**
-- Move the sound in 3D with your hands in front of a camera.
-- Controllers: assign buttons and faders with LEARN; the Arturia KeyLab Essential mk3 comes ready.
+- Assign buttons, faders and knobs of your MIDI controller with LEARN.
 - The **?** in the top bar explains every page.
+
+---
 
 ## Feedback
 
-Please tell what you liked, what was unclear and what went wrong - with the version number (Settings, top
+Tell us what you liked, what was unclear and what went wrong - with the version number (Settings, top
 line) and, if you can, a screenshot.
