@@ -6,7 +6,7 @@ complete piano course, in one app that runs offline.
 
 <p align="center">
   <img src="basalt.png"
-       width="620"
+       width="820"
        alt="Wichtels Audiowald Basalt">
 </p>
 
