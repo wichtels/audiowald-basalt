@@ -4,6 +4,12 @@
 auto-accompaniment that follows your chords, multitrack recording and arranging, a song-writing assistant and a
 complete piano course, in one app that runs offline.
 
+<p align="center">
+  <img src="basalt.png"
+       width="620"
+       alt="Wichtels Audiowald Basalt">
+</p>
+
 **Try it free:** every feature is available in the demo - each session runs for 15 minutes. A licence
 key removes the time limit.
 
