@@ -10,10 +10,7 @@ complete piano course, in one app that runs offline.
        alt="Wichtels Audiowald Basalt">
 </p>
 
-**Try it free:** every feature is available in the demo - each session runs for 15 minutes. A licence
-key removes the time limit.
-
-This repository holds the test versions only (no source code).
+This repository holds the versions only (no source code).
 
 ---
 
