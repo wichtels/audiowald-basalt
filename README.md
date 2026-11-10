@@ -26,6 +26,11 @@ This repository holds the versions only (no source code).
 **Updates** come by themselves: when a new version is out, **UPDATE** appears in the top bar - DOWNLOAD,
 then INSTALL. Basalt closes, updates silently and starts again. Your sounds, songs and settings stay.
 
+**VST3 plugin:** at the first installation the setup asks whether Basalt should also be installed as a VST3
+plugin for your DAW. It goes to `C:\Program Files\Common Files\VST3`, where DAWs look for plugins (Windows
+asks for permission). In your DAW load **Audiowald Basalt** as an instrument. The same licence key unlocks the
+app and the plugin.
+
 ---
 
 ## What makes Basalt different
@@ -122,6 +127,12 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 ## Changelog
 
 The same list is in Basalt: **Settings → CHANGELOG**.
+
+### 0.2.5 - 2026-11-10
+
+- VST3 plugin: the setup asks at the first installation whether Basalt should be installed as a VST3 plugin for your DAW too (C:\Program Files\Common Files\VST3). Updates renew it, uninstalling removes it.
+- The plugin takes the same licence key as the app; without a key it runs 15 minutes per DAW session.
+- Drum bus: the standard level is −9 dB (every drum kit, and double-click on Level).
 
 ### 0.2.4 - 2026-11-10
 
