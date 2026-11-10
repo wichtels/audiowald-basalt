@@ -137,11 +137,12 @@ The same list is in Basalt: **Settings → CHANGELOG**.
 
 ### 0.2.2 - 2026-11-10
 
+- 3D air keyboard: play the app's keyboard with your fingers in the air in front of a webcam, the hands drawn over the keys - Settings → Camera · Hands, START and PLAY (experimental).
 - AI: Voice → Instrument, Accompany and Text → Notes can be downloaded in Settings → AI (Sing → Notes as before).
 - Learn: load your own songs (My songs) and transpose them with − / +.
 - Piano (recorded Grand and Upright): no more silent keys.
 - TRACKS: the arranger zoom and the bar tools sit beside Bars / Snap - more room for the arranger.
-- Hands: hand models on the keyboard and in the 3D view, SHOW PICTURE to aim the camera; play the app keyboard with your fingers in front of the camera (experimental).
+- Hands: hand models on the keyboard and in the 3D view, SHOW PICTURE to aim the camera.
 - MPE: the controller's configuration and bend ranges are read.
 
 ### 0.2.1 - 2026-11-08
