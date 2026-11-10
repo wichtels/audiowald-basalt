@@ -119,6 +119,64 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 
 ---
 
+## Changelog
+
+The same list is in Basalt: **Settings → CHANGELOG**.
+
+### 0.2.4 - 2026-11-10
+
+- Any MIDI keyboard works without setup: the knobs start with the General MIDI 2 controls (CC 74 cutoff, 71 resonance, 73 attack, 72 release, 91 reverb), transport buttons and faders work in the DAW mode most keyboards have and with MIDI Machine Control. Everything else: LEARN.
+- Settings → MIDI inputs: KEYS or DAW for every input - a keyboard on a MIDI interface's second input now plays.
+- Settings no longer start with one keyboard model's layout; that model's extras appear only when it is connected.
+- Changelog in Settings.
+- The version beside the logo is smaller and sits on the logo's bottom line.
+
+### 0.2.3 - 2026-11-10
+
+- The version is shown beside the BASALT logo and in the Settings title.
+
+### 0.2.2 - 2026-11-10
+
+- AI: Voice → Instrument, Accompany and Text → Notes can be downloaded in Settings → AI (Sing → Notes as before).
+- Learn: load your own songs (My songs) and transpose them with − / +.
+- Piano (recorded Grand and Upright): no more silent keys.
+- TRACKS: the arranger zoom and the bar tools sit beside Bars / Snap - more room for the arranger.
+- Hands: hand models on the keyboard and in the 3D view, SHOW PICTURE to aim the camera; play the app keyboard with your fingers in front of the camera (experimental).
+- MPE: the controller's configuration and bend ranges are read.
+
+### 0.2.1 - 2026-11-08
+
+- SYNTH screen: live 3D views of the sound - landscape, wavetable, coil, an underwater world and sound figures.
+
+### 0.2.0 - 2026-11-07
+
+- BEATS: a pad sampler with 9 to 32 pads - record, chop and slice sounds, sample effects, a sequencer for all pads; the drum machine is part of BEATS now.
+- New drum sounds from synthesis and recorded strikes.
+- CONCEPT: the Composition Assistant sits in the arrow toolbar.
+- The Basalt app icon.
+
+### 0.1.4 - 2026-11-06
+
+- The help (?) explains every page.
+
+### 0.1.3 - 2026-11-06
+
+- Licence & updates at the top of Settings.
+
+### 0.1.2 - 2026-11-06
+
+- Updates install silently; Basalt looks for them at start and every 30 minutes.
+
+### 0.1.1 - 2026-11-06
+
+- The demo: every feature, 15 minutes per session.
+
+### 0.1.0 - 2026-11-06
+
+- The first test version.
+
+---
+
 ## Feedback
 
 Tell us what you liked, what was unclear and what went wrong - with the version number (Settings, top
