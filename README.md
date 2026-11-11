@@ -48,7 +48,7 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 | Learn to play the piano inside the music program | – | **12 levels, live jam units** |
 | One key plays a whole chord with voice leading | rarely | **CHORD** |
 | Vocal tuning, vocal studio chain and vocoder | plugins | **built in (VOICE)** |
-| Move sound in 3D with your hands in front of a camera | – | **✓** |
+| Move sound in 3D with your hands in front of a camera (experimental) | – | **✓** |
 | Persian tuning (dastgāh, koron and sori notes) on every track | – | **✓** |
 | Runs fully offline, no account | varies | **✓** |
 
@@ -64,9 +64,9 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 - **Write a song from its form.** CONCEPT plans sections, keys, chord palettes that only offer chords
   that fit, and playing patterns for keys, strumming and bass. A 14-step assistant guides you through it;
   **Create Arrangement** turns the plan into five editable tracks.
-- **Your hands as a controller.** A webcam or a phone sees your arms and hands (only points, never a
-  picture): raise them to move the sound through the room, stretch to widen it, open, pinch or tilt to
-  turn any sound parameter.
+- **Your hands as a controller** (experimental). A webcam or a phone sees your arms and hands (only points,
+  never a picture): raise them to move the sound through the room, stretch to widen it, open, pinch or tilt
+  to turn any sound parameter - or, with the 3D air keyboard (also experimental), play the keys in the air.
 - **Tuning beyond the piano.** Persian tuning with dastgāh and tonic: koron and sori notes sound lower or
   higher on every track, changeable while you play.
 - **Cinematic movement.** Micro pitch drift, spectral lift and an endless rising tone - and a global pitch
@@ -119,6 +119,8 @@ finding the sound are left to you. Basalt builds these into the workstation itse
   over any piece and listen back.
 
 **More**
+- AI features, 100% optional - Basalt is complete without them: Sing → Notes, Voice → Instrument,
+  Accompany and Text → Notes, each downloaded and switched on in Settings → AI.
 - Assign buttons, faders and knobs of your MIDI controller with LEARN.
 - The **?** in the top bar explains every page.
 
@@ -127,6 +129,14 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 ## Changelog
 
 The same list is in Basalt: **Settings → CHANGELOG**.
+
+### 0.2.6 - 2026-11-11
+
+- Master EQ: Treble is audible now - a broad treble control like a hi-fi's, from about 2 kHz up.
+- The level meter in the header shows the whole output; SYNTH screen: a small switch in its top left corner shows the synth alone or the whole output.
+- TRACKS: NEW starts from scratch - one empty track, every sound, effect and setting at its default.
+- Settings: headphones switched on, microphones and cameras plugged in appear in the lists within seconds - Basalt stays on the output it plays on.
+- Hand tracking and the 3D air keyboard are marked experimental, the AI features 100% optional.
 
 ### 0.2.5 - 2026-11-10
 
