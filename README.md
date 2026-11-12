@@ -48,6 +48,7 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 | Learn to play the piano inside the music program | – | **12 levels, live jam units** |
 | One key plays a whole chord with voice leading | rarely | **CHORD** |
 | Vocal tuning, vocal studio chain and vocoder | plugins | **built in (VOICE)** |
+| A speech synthesizer that sings your lyrics | – | **SPEAK** |
 | Move sound in 3D with your hands in front of a camera (experimental) | – | **✓** |
 | Persian tuning (dastgāh, koron and sori notes) on every track | – | **✓** |
 | Runs fully offline, no account | varies | **✓** |
@@ -107,11 +108,19 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 - CONCEPT and the Composition Assistant (see above).
 - TRACKS: record keys, knob moves and the microphone; piano roll with chord tool, quantize and automation;
   arranger for whole bars across all tracks; faders, mute and solo; undo for the whole song.
+- A channel strip on every track and the drum lane: low cut, EQ, a 16-band graphic EQ with 20 presets,
+  compressor, drive and width.
+- IMPORT: MIDI files, audio stems, a folder or a ZIP (Suno, Splice and others) as tracks; → NOTES turns an
+  audio track into notes (drums always, melody, bass and chords with Audio → Notes).
+- Saved songs carry their audio in a folder beside the song.
 - Export the song as WAV, MP3, OGG or FLAC, also every track as its own file.
 
 **Voice**
 - Tune your singing (natural or hard tune) to the key, the chord or the notes you play; a lead-vocal
-  studio chain; formant, robot and harmony voices; a vocoder that lets your voice shape the synth.
+  studio chain; formant, robot and harmony voices; a vocoder that lets your voice - or a recorded or
+  imported vocal - shape another sound.
+- SPEAK SYNTHESIZER: type words and Basalt speaks or sings them, one syllable per note, in English or
+  German, with 20 ready voices - also through the vocoder as a robot voice. A see-through head speaks along.
 
 **Learn**
 - Twelve levels from the first three keys to your own performance; Wait for me, Play through or Listen;
@@ -119,7 +128,7 @@ finding the sound are left to you. Basalt builds these into the workstation itse
   over any piece and listen back.
 
 **More**
-- AI features, 100% optional - Basalt is complete without them: Sing → Notes, Voice → Instrument,
+- AI features, 100% optional - Basalt is complete without them: Audio → Notes, Voice → Instrument,
   Accompany and Text → Notes, each downloaded and switched on in Settings → AI.
 - Assign buttons, faders and knobs of your MIDI controller with LEARN.
 - The **?** in the top bar explains every page.
@@ -129,6 +138,19 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 ## Changelog
 
 The same list is in Basalt: **Settings → CHANGELOG**.
+
+### 0.2.7 - 2026-11-12
+
+- SPEAK SYNTHESIZER (FX → VOICE): Basalt speaks and sings your words - type a text, every note says the next syllable; WORDS → NOTES writes them into the track, ROBOT VOICE sends them through the vocoder; 20 ready voices, English and German.
+- While a track speaks, a see-through head speaks along over every page - drag it anywhere, HEAD SIZE in the SPEAK panel.
+- TRACKS: a 16-band graphic EQ in every track's channel strip and the drum lane, with 20 presets for vocals, drums, bass, synths, keys and more.
+- TRACKS: IMPORT… takes MIDI files, audio stems, a folder or a ZIP (Suno, Splice and others) - up to 16 tracks.
+- TRACKS: → NOTES turns an audio track into notes - drums onto the drum lane, melody, bass or chords with Audio → Notes.
+- TRACKS: VOCODER on audio tracks - a recorded or imported vocal becomes the voice of another track's sound.
+- Saved songs carry their audio: recordings, stems and pad samples go into the folder <song>.assets beside the song.
+- TRACKS: the stop button is PAUSE and keeps the position; stronger track colours.
+- Exclusive mode: the pitch no longer sinks and the sound no longer drops out after a few minutes in busy passages.
+- 3D air keyboard (experimental): the keys stay under your hand; a held note bends with the hand like on an MPE keyboard.
 
 ### 0.2.6 - 2026-11-11
 
