@@ -115,6 +115,10 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 - Saved songs carry their audio in a folder beside the song.
 - Export the song as WAV, MP3, OGG or FLAC, also every track as its own file.
 
+**Plug-ins**
+- Your own VST3 instruments and effects (64-bit): a plug-in plays a track, up to four effects on every track,
+  the drums and the master - each with its own window, saved with the song and in the export.
+
 **Voice**
 - Tune your singing (natural or hard tune) to the key, the chord or the notes you play; a lead-vocal
   studio chain; formant, robot and harmony voices; a vocoder that lets your voice - or a recorded or
@@ -131,6 +135,7 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 - AI features, 100% optional - Basalt is complete without them: Audio → Notes, Voice → Instrument,
   Accompany and Text → Notes, each downloaded and switched on in Settings → AI.
 - Assign buttons, faders and knobs of your MIDI controller with LEARN.
+- Six themes: Basalt (brushed black), Dark, Graphite, Grey, Silver and Light.
 - The **?** in the top bar explains every page.
 
 ---
@@ -138,6 +143,15 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 ## Changelog
 
 The same list is in Basalt: **Settings → CHANGELOG**.
+
+### 0.2.8 - 2026-11-13
+
+- VST3 plug-ins: your own instruments and effects in Basalt (64-bit VST3). TRACKS, under the tracks: INSTRUMENT - a plug-in plays the track, OPEN shows its window; EFFECTS - up to four effect plug-ins on every track, the drums and audio tracks. FX → MASTERING: four more on the whole mix.
+- Settings → Plug-ins · VST3: the folders searched and SCAN; new and changed plug-ins are found when Basalt starts. A plug-in's settings are saved with the song and are in the export.
+- A plug-in that crashes is switched off and the sound comes back at once; ON switches it on again. Plug-in windows wear the app's theme.
+- Themes in Settings → Appearance: Basalt (brushed black, the default), Dark, Graphite, Grey, Silver and Light - with readable text in every one.
+- Piano roll: taller or flatter rows - Alt+wheel over the roll or the two row buttons beside the magnifiers.
+- Your page settings (theme, page, head size and more) are kept safely from one start to the next.
 
 ### 0.2.7 - 2026-11-12
 
