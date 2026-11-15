@@ -94,7 +94,10 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 
 **Chords and accompaniment**
 - CHORD: one key plays triads, 7ths, 9ths, sus or power chords in your key and scale - with voicings,
-  extra notes above or below, a bass note and automatic voice leading.
+  extra notes above or below, a bass note and automatic voice leading; HZ, the wide film-score chord; Form,
+  the same chord on every key (m7, m9, m11 ...) for techno stabs.
+- PULSE: the chord as a rhythm - 60 patterns: cinematic pulses, piano accompaniments (art-pop, classical,
+  waltzes) and techno / electronic stabs, basslines and arpeggios.
 - STYLE: 158 accompaniment styles in 15 genres following the chord you play.
 
 **BEATS**
@@ -106,8 +109,11 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 
 **Song**
 - CONCEPT and the Composition Assistant (see above).
-- TRACKS: record keys, knob moves and the microphone; piano roll with chord tool, quantize and automation;
-  arranger for whole bars across all tracks; faders, mute and solo; undo for the whole song.
+- TRACKS: record keys, knob moves and the microphone (with count-in and metronome); piano roll with chord
+  tool, quantize and automation; arranger for whole bars across all tracks; faders, mute and solo; undo for
+  the whole song.
+- Piano roll: notes and chords that glide into each other voice by voice, and chord suggestions - the next
+  chord with 1 to 4 notes changed, in your key, borrowed, dark or shifted whole.
 - A channel strip on every track and the drum lane: low cut, EQ, a 16-band graphic EQ with 20 presets,
   compressor, drive and width.
 - IMPORT: MIDI files, audio stems, a folder or a ZIP (Suno, Splice and others) as tracks; → NOTES turns an
@@ -143,6 +149,18 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 ## Changelog
 
 The same list is in Basalt: **Settings → CHANGELOG**.
+
+### 0.2.9 - 2026-11-15
+
+- Chord glide: in the piano roll, notes and whole chords connect and glide into each other without a break, voice by voice - M83-like pads. Glide tool (5), Connect notes (G) for the selected chords, a wheel for the glide time, struck again where it arrives if you like. On every synth model, the Piano and the Sampler, and on VST3 instruments with note expression.
+- Piano roll: notes play as they are drawn - a chord drawn there no longer becomes a chord of each of its notes.
+- CHORD: HZ - root and third only, each as an octave, wide apart: the big film-score chord. Spread, AUTO, Up, Down and BASS work with it.
+- CHORD: PULSE plays the chord as a rhythm - 20 cinematic pulses, 30 piano accompaniments (art-pop, classical, ballads, six waltzes) and 10 techno and electronic patterns (stabs, rolling bass, trance gate, arpeggios). Recording takes the notes you heard, from the first strike on.
+- CHORD: Form - every key plays the same chord on itself (m7, m9, m11, Maj7, Maj9, 7, Sus4, fifths, fourths), like the chord memory of Detroit techno.
+- Piano roll: chord suggestions (SUGGEST) - the next chord a bar later with 1 to 4 notes changed, in your key; ♭ allows a borrowed note, ♭2 the dark flat second, ∥ shifts the whole shape. Tab for another, Enter takes it and the next one follows.
+- CONCEPT: a new progression family, Electronic - short loops in the manner of techno, M83 and Jon Hopkins.
+- TRACKS: CLICK keeps the metronome going through the recording after the count-in; ■ STOP beside PLAY while something plays.
+- Arranger: every track in its colour with light notes and waveforms and clear gaps between the rows; piano roll: stronger lines every 4 and 8 bars.
 
 ### 0.2.8 - 2026-11-13
 
