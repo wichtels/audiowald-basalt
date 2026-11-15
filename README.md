@@ -116,7 +116,7 @@ finding the sound are left to you. Basalt builds these into the workstation itse
   chord with 1 to 4 notes changed, in your key, borrowed, dark or shifted whole.
 - A channel strip on every track and the drum lane: low cut, EQ, a 16-band graphic EQ with 20 presets,
   compressor, drive and width.
-- IMPORT: MIDI files, audio stems, a folder or a ZIP (Suno, Splice and others) as tracks; → NOTES turns an
+- IMPORT: MIDI files, audio stems, a folder or a ZIP (from AI music services, sample sites and others) as tracks; → NOTES turns an
   audio track into notes (drums always, melody, bass and chords with Audio → Notes).
 - Saved songs carry their audio in a folder beside the song.
 - Export the song as WAV, MP3, OGG or FLAC, also every track as its own file.
@@ -175,7 +175,7 @@ The same list is in Basalt: **Settings → CHANGELOG**.
 - SPEAK SYNTHESIZER (FX → VOICE): Basalt speaks and sings your words - type a text, every note says the next syllable; WORDS → NOTES writes them into the track, ROBOT VOICE sends them through the vocoder; 20 ready voices, English and German.
 - While a track speaks, a see-through head speaks along over every page - drag it anywhere, HEAD SIZE in the SPEAK panel.
 - TRACKS: a 16-band graphic EQ in every track's channel strip and the drum lane, with 20 presets for vocals, drums, bass, synths, keys and more.
-- TRACKS: IMPORT… takes MIDI files, audio stems, a folder or a ZIP (Suno, Splice and others) - up to 16 tracks.
+- TRACKS: IMPORT… takes MIDI files, audio stems, a folder or a ZIP (from AI music services, sample sites and others) - up to 16 tracks.
 - TRACKS: → NOTES turns an audio track into notes - drums onto the drum lane, melody, bass or chords with Audio → Notes.
 - TRACKS: VOCODER on audio tracks - a recorded or imported vocal becomes the voice of another track's sound.
 - Saved songs carry their audio: recordings, stems and pad samples go into the folder <song>.assets beside the song.
