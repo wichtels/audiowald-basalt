@@ -152,12 +152,12 @@ The same list is in Basalt: **Settings → CHANGELOG**.
 
 ### 0.2.9 - 2026-11-15
 
-- Chord glide: in the piano roll, notes and whole chords connect and glide into each other without a break, voice by voice - M83-like pads. Glide tool (5), Connect notes (G) for the selected chords, a wheel for the glide time, struck again where it arrives if you like. On every synth model, the Piano and the Sampler, and on VST3 instruments with note expression.
+- Chord glide: in the piano roll, notes and whole chords connect and glide into each other without a break, voice by voice - wide gliding pads. Glide tool (5), Connect notes (G) for the selected chords, a wheel for the glide time, struck again where it arrives if you like. On every synth model, the Piano and the Sampler, and on VST3 instruments with note expression.
 - CHORD: HZ - root and third only, each as an octave, wide apart: the big film-score chord. Spread, AUTO, Up, Down and BASS work with it.
 - CHORD: PULSE plays the chord as a rhythm - 20 cinematic pulses, 30 piano accompaniments (art-pop, classical, ballads, six waltzes) and 10 techno and electronic patterns (stabs, rolling bass, trance gate, arpeggios). Recording takes the notes you heard, from the first strike on.
 - CHORD: Form - every key plays the same chord on itself (m7, m9, m11, Maj7, Maj9, 7, Sus4, fifths, fourths), like the chord memory of Detroit techno.
 - Piano roll: chord suggestions (SUGGEST) - the next chord a bar later with 1 to 4 notes changed, in your key; ♭ allows a borrowed note, ♭2 the dark flat second, ∥ shifts the whole shape. Tab for another, Enter takes it and the next one follows.
-- CONCEPT: a new progression family, Electronic - short loops in the manner of techno, M83 and Jon Hopkins.
+- CONCEPT: a new progression family, Electronic - short loops of techno, synth-pop and electronica.
 - TRACKS: CLICK keeps the metronome going through the recording after the count-in; ■ STOP beside PLAY while something plays.
 - Arranger: every track in its colour with light notes and waveforms and clear gaps between the rows; piano roll: stronger lines every 4 and 8 bars.
 
