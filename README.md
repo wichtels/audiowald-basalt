@@ -82,7 +82,7 @@ finding the sound are left to you. Basalt builds these into the workstation itse
   fat mono / poly synth (Voyage), six-operator FM (Hex 7), modern virtual analogue (Hyper), an acoustic
   **Piano** (physically modelled - strings, felt hammer, soundboard - or recorded Grand and Upright), sound
   clouds from recordings (Texture, Spectra) and a Sampler.
-- 815 presets; every change you make to a preset is remembered.
+- 820 presets; every change you make to a preset is remembered.
 - Two layers per sound (STACK or SPLIT), unison, glide, two LFOs, an 8-slot modulation matrix, XY pad.
 - Arpeggiator, a 16-step SEQ that plays chords in your scale, an 8-step GATE.
 - MPE controllers, MIDI keyboards, the on-screen keys or the computer keys.
@@ -96,7 +96,7 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 - CHORD: one key plays triads, 7ths, 9ths, sus or power chords in your key and scale - with voicings,
   extra notes above or below, a bass note and automatic voice leading; HZ, the wide film-score chord; Form,
   the same chord on every key (m7, m9, m11 ...) for techno stabs.
-- PULSE: the chord as a rhythm - 60 patterns: cinematic pulses, piano accompaniments (art-pop, classical,
+- PULSE: the chord as a rhythm - 62 patterns: cinematic pulses, piano accompaniments (art-pop, classical,
   waltzes) and techno / electronic stabs, basslines and arpeggios.
 - STYLE: 158 accompaniment styles in 15 genres following the chord you play.
 
@@ -110,14 +110,15 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 **Song**
 - CONCEPT and the Composition Assistant (see above).
 - TRACKS: record keys, knob moves and the microphone (with count-in and metronome); piano roll with chord
-  tool, quantize and automation; arranger for whole bars across all tracks; faders, mute and solo; undo for
-  the whole song.
+  tool, quantize and automation; arranger for whole bars and clips across all tracks; faders, mute and solo;
+  undo for the whole song.
 - Piano roll: notes and chords that glide into each other voice by voice, and chord suggestions - the next
   chord with 1 to 4 notes changed, in your key, borrowed, dark or shifted whole.
-- A channel strip on every track and the drum lane: low cut, EQ, a 16-band graphic EQ with 20 presets,
-  compressor, drive and width.
+- A channel strip on every track and the drum lane: octave, low cut, EQ, a 16-band graphic EQ with 20
+  presets, compressor, sidechain ducking (by a pad, the drums or another track), drive and width.
 - IMPORT: MIDI files, audio stems, a folder or a ZIP (from AI music services, sample sites and others) as tracks; → NOTES turns an
-  audio track into notes (drums always, melody, bass and chords with Audio → Notes).
+  audio track into notes (drums always, melody, bass and chords with Audio → Notes); audio files straight into
+  an audio track, edited there with the sample editor's tools.
 - Saved songs carry their audio in a folder beside the song.
 - Export the song as WAV, MP3, OGG or FLAC, also every track as its own file.
 
@@ -149,6 +150,20 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 ## Changelog
 
 The same list is in Basalt: **Settings → CHANGELOG**.
+
+### 0.3.0 - 2026-11-18
+
+- Sidechain ducking: DUCK in every channel strip - a pad (Kick ...), the whole drum lane or another track pulls the track down. TRIGGER (every hit the same) or COMP (a louder hit ducks deeper), Amount, Release as a note value in time with the tempo, GHOST: a muted source still ducks.
+- Arranger clips: BARS | CLIPS above the arranger. Make clip in the piano roll (Ctrl+G or right click on the selected notes), AUTO CLIPS by the gaps; drag clips (Ctrl: copy), onto another track, resize them at their edges, right-click menus for clips and bars.
+- Audio tracks: import a file (WAV, MP3, OGG, FLAC, AIFF) into an existing audio track - the symbol at the far right of its head, Import audio here in the arranger's right-click menu, or drop it on the track. IMPORT… puts every stem in as a clip.
+- Audio tracks: the sample editor's tools above the selected clip - crop, silence, normalize, gain, fades, reverse, trim, slices into clips (also shuffled), tape speed, filters. Every edit keeps the original.
+- Channel strip: PITCH - an Octave knob on instrument tracks, 4 octaves down to 4 up; the middle plays as written.
+- Piano roll SUGGEST: CPro - the next chord of a progressive-house progression in its colours; with nothing selected, a first chord at the cursor.
+- Synth LFOs: 32/1, 16/1 and 8/1 for very slow filter sweeps.
+- Hyper: band distortion after the filters - Band, Span and Dist with a small screen showing the band; the crusher's sample-rate reduction works now. New wide saw sounds on Hyper.
+- BEATS: the sequencer shows 1-16, 17-32 or ALL steps, always square; a step set past the end lengthens the pattern.
+- PULSE: two more patterns, Golden and Golden 2 - a broken chord over 13 beats.
+- TRACKS: right click on a track's head → Duplicate; a click in the arranger shows that bar in the roll; STOP always goes back to the start; undo, redo, cut, copy, paste and empty beside SAVE; New, Open and Save as icons.
 
 ### 0.2.9 - 2026-11-15
 
