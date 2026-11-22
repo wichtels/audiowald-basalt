@@ -78,19 +78,22 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 ## All features
 
 **Sound**
-- Fourteen synth models: classic polysynths (Six, Six-0, Six-106, Jove 8, Oberon X, Prophetic 6, P08), a
-  fat mono / poly synth (Voyage), six-operator FM (Hex 7), modern virtual analogue (Hyper), an acoustic
+- Fifteen synth models: classic polysynths (Six, Six-0, Six-106, Jove 8, Oberon X, Prophetic 6, P08), a
+  fat mono / poly synth (Voyage), six-operator FM (Hex 7), modern virtual analogue (Hyper), Raw (three plain
+  oscillators for sharp saw chords), an acoustic
   **Piano** (physically modelled - strings, felt hammer, soundboard - or recorded Grand and Upright), sound
   clouds from recordings (Texture, Spectra) and a Sampler.
-- 820 presets; every change you make to a preset is remembered.
-- Two layers per sound (STACK or SPLIT), unison, glide, two LFOs, an 8-slot modulation matrix, XY pad.
+- 865 presets; every change you make to a preset is remembered.
+- Two layers per sound (STACK or SPLIT), unison, glide, JUST (pure tuning on every chord), two LFOs, an 8-slot modulation matrix, XY pad.
 - Arpeggiator, a 16-step SEQ that plays chords in your scale, an 8-step GATE.
 - MPE controllers, MIDI keyboards, the on-screen keys or the computer keys.
 
 **Effects**
-- Chorus, phaser, tape / ping-pong delay, reverb and a per-track glitch (stutter, reverse, freeze, pitch).
+- Chorus, phaser, tape / ping-pong delay, reverb (room, plate, hall, cathedral, non-linear; shimmer and gate)
+  and a per-track glitch (stutter, reverse, freeze, pitch).
 - Ambient tools: fracture, grain, fold, resonator, spectral (smear, freeze, shift, morph) and space.
-- Cinematic motion and global pitch drift; an analogue mastering stage (tube, tape, glue, width) and EQ.
+- Cinematic motion and global pitch drift; an analogue mastering stage (tube, tape, glue, width) and EQ;
+  low cut, mono bass, multiband, true-peak limiter and a loudness meter in LUFS.
 
 **Chords and accompaniment**
 - CHORD: one key plays triads, 7ths, 9ths, sus or power chords in your key and scale - with voicings,
@@ -109,18 +112,20 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 
 **Song**
 - CONCEPT and the Composition Assistant (see above).
+- EXPAND LOOP: a loop of 4 to 16 bars becomes a whole song in one of 9 genres, with transitions.
 - TRACKS: record keys, knob moves and the microphone (with count-in and metronome); piano roll with chord
   tool, quantize and automation; arranger for whole bars and clips across all tracks; faders, mute and solo;
   undo for the whole song.
 - Piano roll: notes and chords that glide into each other voice by voice, and chord suggestions - the next
   chord with 1 to 4 notes changed, in your key, borrowed, dark or shifted whole.
-- A channel strip on every track and the drum lane: octave, low cut, EQ, a 16-band graphic EQ with 20
+- A channel strip on every track and the drum lane: octave, semitones and cents, low cut, EQ, a 16-band graphic EQ with 20
   presets, compressor, sidechain ducking (by a pad, the drums or another track), drive and width.
 - IMPORT: MIDI files, audio stems, a folder or a ZIP (from AI music services, sample sites and others) as tracks; → NOTES turns an
   audio track into notes (drums always, melody, bass and chords with Audio → Notes); audio files straight into
   an audio track, edited there with the sample editor's tools.
 - Saved songs carry their audio in a folder beside the song.
-- Export the song as WAV, MP3, OGG or FLAC, also every track as its own file.
+- Export the song as WAV, MP3, OGG or FLAC, also every track as its own file; or as an MP4 video with
+  14 kinds of pictures, and record the app live with its sound.
 
 **Plug-ins**
 - Your own VST3 instruments and effects (64-bit): a plug-in plays a track, up to four effects on every track,
@@ -150,6 +155,19 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 ## Changelog
 
 The same list is in Basalt: **Settings → CHANGELOG**.
+
+### 0.3.1 - 2026-11-22
+
+- Expand Loop: a loop becomes a whole song - 9 genres, roles for the tracks, calmer verses, transitions, preview; one undo step.
+- Video: the song as an MP4 with 14 kinds of pictures (3D, piano roll, keyboard, falling notes ...); live recording of the app with its sound (Ctrl+Shift+R).
+- Raw: a new model for sharp saw chords, with unison and new sounds (Pure Chords). JUST: pure tuning on every chord, for every model.
+- FX / Mastering: Low Cut, Mono Bass, Natural, Multiband, True-Peak Limiter and a loudness meter (LUFS) - all off at first. Analog Master: Warmth is stronger.
+- Reverb: Cathedral and Non-Linear, and Low Cut, Shimmer and Gate.
+- Export: the loop repeated 1-64 times, a fade-out; Whole song ends where the music ends.
+- Piano roll: zoom out to the whole song, Ctrl+wheel zooms at the pointer, the view runs along while playing; right click deletes a note; a clicked note's length is used for the next ones.
+- Channel strip PITCH: Semi and Fine. The keyboard at the bottom shows the song's notes while it plays.
+- Chords: no unwanted rubs (Sus2 / Sus4 in the scale, clean 7ths and 9ths); SUGGEST never offers a chord the track already has.
+- The app opens maximized; the start screen goes away sooner.
 
 ### 0.3.0 - 2026-11-18
 
