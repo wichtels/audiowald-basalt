@@ -1,6 +1,6 @@
 # Audiowald Basalt
 
-**A music workstation (DAW) for Windows** - fourteen synth models, a pad sampler and drum machine, an
+**A music workstation (DAW) for Windows** - sixteen synth models, a pad sampler and drum machine, an
 auto-accompaniment that follows your chords, multitrack recording and arranging, a song-writing assistant and a
 complete piano course, in one app that runs offline.
 
@@ -41,7 +41,7 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 | | A typical DAW | Basalt |
 | --- | :---: | :---: |
 | Timeline, piano roll, recording, mixing, export | ✓ | ✓ |
-| Synthesizers built in | a few, or plugins | **14 models, 815 presets** |
+| Synthesizers built in | a few, or plugins | **16 models, 985 presets** |
 | Pad sampler and drum machine | plugins or separate | **built in (BEATS)** |
 | Auto-accompaniment that follows the chords you play, live | – | **158 styles in 15 genres** |
 | Song planning: form, keys, chords, playing patterns → finished tracks | – | **CONCEPT + assistant** |
@@ -78,12 +78,13 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 ## All features
 
 **Sound**
-- Fifteen synth models: classic polysynths (Six, Six-0, Six-106, Jove 8, Oberon X, Prophetic 6, P08), a
+- Sixteen synth models: classic polysynths (Six, Six-0, Six-106, Jove 8, Oberon X, Prophetic 6, P08), a
   fat mono / poly synth (Voyage), six-operator FM (Hex 7), modern virtual analogue (Hyper), Raw (three plain
   oscillators for sharp saw chords), an acoustic
-  **Piano** (physically modelled - strings, felt hammer, soundboard - or recorded Grand and Upright), sound
-  clouds from recordings (Texture, Spectra) and a Sampler.
-- 865 presets; every change you make to a preset is remembered.
+  **Piano** (physically modelled - strings, felt hammer, soundboard - or recorded Grand and Upright), a
+  **Guitar** (modelled strings - nylon, steel, 12-string, jazz, electric and bass guitar - with amps, cabs,
+  pedals, a fretboard and strumming patterns), sound clouds from recordings (Texture, Spectra) and a Sampler.
+- 985 presets; every change you make to a preset is remembered.
 - Two layers per sound (STACK or SPLIT), unison, glide, JUST (pure tuning on every chord), two LFOs, an 8-slot modulation matrix, XY pad.
 - Arpeggiator, a 16-step SEQ that plays chords in your scale, an 8-step GATE.
 - MPE controllers, MIDI keyboards, the on-screen keys or the computer keys.
@@ -99,15 +100,15 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 - CHORD: one key plays triads, 7ths, 9ths, sus or power chords in your key and scale - with voicings,
   extra notes above or below, a bass note and automatic voice leading; HZ, the wide film-score chord; Form,
   the same chord on every key (m7, m9, m11 ...) for techno stabs.
-- PULSE: the chord as a rhythm - 62 patterns: cinematic pulses, piano accompaniments (art-pop, classical,
-  waltzes) and techno / electronic stabs, basslines and arpeggios.
+- PULSE: the chord as a rhythm - 63 patterns: cinematic pulses, piano accompaniments (art-pop, classical,
+  waltzes), techno / electronic stabs, basslines and arpeggios, and guitar fingerpicking.
 - STYLE: 158 accompaniment styles in 15 genres following the chord you play.
 
 **BEATS**
 - 9 to 32 pads: load or record sounds, chop them by hits or grid or live, assign slices to pads.
 - Pattern recording with overdub, count-in and quantize; note repeat (also triplets), velocity and pitch
-  levels, choke groups, one-shot / gate / loop pads.
-- Ten drum tracks (synthesis and recorded strikes), 100 kits, four patterns up to eight bars, chains,
+  levels, choke groups, one-shot / gate / loop pads, a compressor on every pad.
+- Ten drum tracks (synthesis and recorded strikes), 105 kits, four patterns up to eight bars, chains,
   drum bus and glitch. Write patterns into the song or resample them into a new sound.
 
 **Song**
@@ -117,7 +118,8 @@ finding the sound are left to you. Basalt builds these into the workstation itse
   tool, quantize and automation; arranger for whole bars and clips across all tracks; faders, mute and solo;
   undo for the whole song.
 - Piano roll: notes and chords that glide into each other voice by voice, and chord suggestions - the next
-  chord with 1 to 4 notes changed, in your key, borrowed, dark or shifted whole.
+  chord with 1 to 4 notes changed, in your key, borrowed, dark or shifted whole; CHOP cuts chords into
+  rhythms, HUMANIZE gives notes a human timing (also several tracks together).
 - A channel strip on every track and the drum lane: octave, semitones and cents, low cut, EQ, a 16-band graphic EQ with 20
   presets, compressor, sidechain ducking (by a pad, the drums or another track), drive and width.
 - IMPORT: MIDI files, audio stems, a folder or a ZIP (from AI music services, sample sites and others) as tracks; → NOTES turns an
@@ -155,6 +157,23 @@ finding the sound are left to you. Basalt builds these into the workstation itse
 ## Changelog
 
 The same list is in Basalt: **Settings → CHANGELOG**.
+
+### 0.3.2 - 2026-11-25
+
+- Guitar: new model - nylon, steel, 12-string, jazz, electric, bass; 120 sounds
+- Guitar: FRETBOARD, AMP (9 amps, 10 cabs), pedals
+- Guitar: PATTERN - 20 strumming and picking patterns
+- PULSE: 6/8 fingerpicking
+- BEATS: 5 minimal / afterhour kits
+- Pads: compressor per pad
+- Piano roll: CHOP (Shift+C) - chords in rhythm
+- Piano roll: HUMANIZE (H) - human timing, also several tracks together
+- Arranger: rounder clips, 32 track colours, Drums track removable
+- Muted drum track: BEATS still audible
+- Switching tracks: song notes keep ringing
+- Audio: Low Latency mode, Exclusive Push, drift guard
+- Live video: smoother, smaller files, sound quality selectable
+- Settings on their own plates; logo in the top bar
 
 ### 0.3.1 - 2026-11-22
 
